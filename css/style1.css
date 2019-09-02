@@ -31,23 +31,23 @@ img {
     height: 40px;
     width: 260px;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 17px;
     border-radius: 8px;
     background-color: rgba(225, 255, 255, 0.4);
-    border: 3px solid #0288D1;
+    border: 1px solid #cccccc;
     margin-left: 42px;
     margin-top: 10px;
 }
 
 .tombol_login {
     width: 260px;
-    height: 30px;
+    height: 35px;
     text-align: center;
-    background-color: #0288D1;
+    background-color: #757474;
     color: white;
     font-size: 17px;
-    border: 2px solid #0288D1;
+    border: 2px solid #757474;
     border-radius: 8px;
     margin-top: 20px;
     margin-left: 42px;
@@ -55,7 +55,7 @@ img {
 
 .chexbox {
     font-size: 15px;
-    color: white;
+    color: black;
     margin-left: 45px;
     margin-top: 10px;
 }
@@ -65,14 +65,14 @@ img {
 }
 
 .tombol_login:hover {
-    background-color: white;
-    color: #0288D1;
-    border: 2px solid white;
+    background-color: gainsboro;
+    color: black;
+    border: 2px solid gainsboro;
 }
 
 .copyright {
     margin-top: 150px;
-    color: #0288D1;
+    color: #757474;
     font-size: 17px;
     margin-left: 10px;
 }
@@ -83,5 +83,5 @@ a {
 }
 
 .copyright a {
-    color: #0288D1;
+    color: gainsboro;
 }
