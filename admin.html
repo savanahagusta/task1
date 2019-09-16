@@ -27,8 +27,8 @@
 					<a class="nav-link" href="about.html">About</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
 						New Task
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -50,8 +50,9 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<a class="navbar-brand" href="#">
-			<img src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg" width="30" height="30"
-				class="d-inline-block align-top" alt="">
+			<i class="fa fa-hand-o-right d-inline-block " aria-hidden="true"></i>
+			<!-- <img src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg" width="30" height="30"
+				class="d-inline-block align-top" alt=""> -->
 			<span class="menu-collapsed">TAPP</span>
 		</a>
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -62,8 +63,11 @@
 						Menu
 					</a>
 					<div class="dropdown-menu" aria-labelledby="smallerscreenmenu">
-						<a class="dropdown-item" href="#">Dashboard</a>
-						<a class="dropdown-item" href="#">Profile</a>
+						<a class="dropdown-item" href="#">Beranda</a>
+						<a class="dropdown-item" href="#">Admin</a>
+						<a class="dropdown-item" href="#">Dosen</a>
+						<a class="dropdown-item" href="#">Mahasiswa</a>
+						<a class="dropdown-item" href="#">Bimbingan</a>
 					</div>
 				</li>
 			</ul>
@@ -116,44 +120,106 @@
 		<!-- End Sidebar -->
 
 		<!-- MAIN -->
-		<div class="col">
+		<div class="col wall-color">
 			<div class="row">
 				<div class="col-lg-4 col-md-4">
 					<!-- CARD 1 -->
-					<div class="card">
+					<a href="#" class="card btn btn-light bg-light stretched-link">
 						<div class="card-body">
-							<h5 class="card-title">Card with stretched link</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk
-								of the
-								card's
-								content.</p>
-							<a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+							<div class="sm-col-card">
+								<div class="smc-icon dib flat-color-1">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<div class="smc-content text-left">
+									<div class="smc-head">Admin</div>
+									<div class="smc-text">20</div>
+								</div>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<!-- CARD 2 -->
-					<div class="card">
+					<a href="#" class="card btn btn-light bg-light stretched-link">
 						<div class="card-body">
-							<h5 class="card-title">Card with stretched link</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk
-								of the
-								card's
-								content.</p>
-							<a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+							<div class="sm-col-card">
+								<div class="smc-icon dib flat-color-2">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<div class="smc-content text-left">
+									<div class="smc-head">Dosen</div>
+									<div class="smc-text">50</div>
+								</div>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<!-- CARD 3 -->
-					<div class="card">
+					<a href="#" class="card btn btn-light bg-light stretched-link">
 						<div class="card-body">
-							<h5 class="card-title">Card with stretched link</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk
-								of the
-								card's
-								content.</p>
-							<a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+							<div class="sm-col-card">
+								<div class="smc-icon dib flat-color-3">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<div class="smc-content text-left">
+									<div class="smc-head">Mahasiswa</div>
+									<div class="smc-text">520</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-7 col-md-7">
+					<div class="card">
+						<div class="card-header">Notifikasi Masuk</div>
+						<div class="card-body p-0">
+								<ul class="list-group">
+										<li class="list-group-item">Cras justo odio</li>
+										<li class="list-group-item">Dapibus ac facilisis in</li>
+										<li class="list-group-item">Morbi leo risus</li>
+										<li class="list-group-item">Porta ac consectetur ac</li>
+										<li class="list-group-item">Vestibulum at eros</li>
+									</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5">
+					<div class="card">
+						<div class="card-header">Data Pengunjung Terakhir</div>
+						<div class="card-body">
+								<table class="table table-hover">
+										<thead>
+											<tr>
+												<th scope="col">User</th>
+												<th scope="col">Nama</th>
+												<th scope="col">Tanggal</th>
+												<th scope="col">Jam</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">Dosen</th>
+												<td>Mark</td>
+												<td>19/09/16</td>
+												<td>10:30:10</td>
+											</tr>
+											<tr>
+												<th scope="row">Mahasiswa</th>
+												<td>Jacob</td>
+												<td>19/09/16</td>
+												<td>10:30:10</td>
+											</tr>
+											<tr>
+												<th scope="row">Admin</th>
+												<td>Larry</td>
+												<td>19/09/16</td>
+												<td>10:30:10</td>
+											</tr>
+										</tbody>
+									</table>
 						</div>
 					</div>
 				</div>

@@ -60,9 +60,58 @@
 }
 
 .card {
-    margin-top: 15px;
+    margin-top: 1.875em;
+    box-shadow: 0 0 20px rgba(0,0,0,.08);
+    border: 0 solid transparent;
 }
-
+.card-header {
+    font-size: 18px;
+    color: #455a64;
+}
 .navbar {
     position: sticky;
+}
+
+.wall-color {
+    background-color: ghostwhite;
+}
+
+.sm-col-card {
+    min-height: 60px;
+}
+.sm-col-card .smc-icon {
+    font-size: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 60px;
+    top: 25px;
+}
+.sm-col-card .smc-content {
+    margin-left: 100px;
+}
+.sm-col-card .smc-head {
+    color: #455a64;
+    font-size: 20px;
+}
+.sm-col-card .smc-text {
+    color: #99abb4;
+    font-size: 14px;
+}
+.dib {
+    display: inline-block;
+}
+.flat-color-1 {
+    color: #216583;
+}
+.flat-color-1:hover {
+    color: #caf2d7;
+}
+.flat-color-2 {
+    color: #f76262;
+}
+.flat-color-3 {
+    color: #fdef96;
+}
+.p-3 {
+    
 }
