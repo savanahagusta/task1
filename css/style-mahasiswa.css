@@ -1,61 +1,14 @@
+.container-fluid {
+    padding-right: 1.875em;
+    padding-left: 1.875em;
+}
 #body-row {
     margin-left:0;
     margin-right:0;
 }
-#sidebar-container {
-    min-height: 92.8vh;   
-    background-color: #333;
-    padding: 0;
+body {
+    background-color: ghostwhite;
 }
-.sidebar-expanded {
-    width: 220px;
-}
-.sidebar-collapsed {
-    width: 60px;
-}
-
-#sidebar-container .list-group a {
-    height: 50px;
-    color: white;
-}
-
-#sidebar-container .list-group .sidebar-submenu a {
-    height: 45px;
-    padding-left: 30px;
-}
-.sidebar-submenu {
-    font-size: 0.9rem;
-}
-
-.sidebar-separator-title {
-    background-color: #333;
-    height: 35px;
-}
-.sidebar-separator {
-    background-color: #333;
-    height: 25px;
-}
-.logo-separator {
-    background-color: #333;    
-    height: 60px;
-}
-
-#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
-  content: " \f0d7";
-  font-family: FontAwesome;
-  display: inline;
-  text-align: right;
-  padding-left: 10px;
-}
-
-#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
-  content: " \f0da";
-  font-family: FontAwesome;
-  display: inline;
-  text-align: right;
-  padding-left: 10px;
-}
-
 .card {
     box-shadow: 0 0 20px rgba(0,0,0,.08);
     border: 0 solid transparent;
@@ -69,20 +22,11 @@
     position: sticky;
     height: 70px;
 }
-/* jadi gk ada scroll yang di baawah */
-body {
-    overflow-x: hidden;
-} 
+
 .wall-color {
     background-color: ghostwhite;
-    
 }
-.sidenav {
-    transition: 0s; 
-}
-#main {
-    transition: margin-left 0s;
-}
+
 .sm-col-card {
     min-height: 60px;
 }
@@ -107,14 +51,13 @@ body {
 .dib {
     display: inline-block;
 }
-.aa {
+.flat-color-1 {
     color: #216583;
 }
-
-.flat-color-2 {
-    color: #f76262;
+.flat-color-1:hover {
+    color: #caf2d7;
 }
-.flat-color-2:hover {
+.flat-color-2 {
     color: #f76262;
 }
 .flat-color-3 {
@@ -159,8 +102,4 @@ body {
 }
 .col {
     z-index: auto;
-}
-td:hover{
-    background-color: darkmagenta;
-    color: wheat;
 }
